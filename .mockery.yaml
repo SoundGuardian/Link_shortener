@@ -1,0 +1,6 @@
+with-expecter: true
+all: true
+packages:
+    url-shortener/internal/http-server/handlers/save:
+        interfaces:
+            URLSaver:
